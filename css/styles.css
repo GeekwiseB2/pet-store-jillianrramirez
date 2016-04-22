@@ -1,0 +1,65 @@
+.container-fluid {
+	padding: 0;
+}
+
+.logo {
+	max-height: 90px;
+}
+
+.logo-text {
+	display: inline;
+	font-family: 'Satisfy', cursive;
+	color: #F48166;
+}
+
+.header a {
+	color: #9EC2D9;
+	font-size: large;
+}
+
+.jumbotron {
+	background-image: url('../img/hero.jpg');
+	background-size: cover;
+	min-height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0px !important;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 200%;
+	text-align: center;
+
+}
+
+.nav-pills {
+	color: #9EC2D9;
+	background-color: #fff;
+	margin-top: 50px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	color: #9EC2D9;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: large;
+}
+
+.item {
+	padding: 0 5px;
+}
+.thumbnail {
+	background-color: #EDF1F4;
+}
+
+.services {
+	text-align: center;
+}
+
+footer {
+	background-color: #231F20;
+}
