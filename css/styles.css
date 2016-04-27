@@ -1,7 +1,7 @@
 .container-fluid {
 	padding: 0;
 }
-
+/*===== Header Styles =====*/
 .logo {
 	max-height: 90px;
 }
@@ -49,17 +49,60 @@
 	font-size: large;
 }
 
+/*===== Product Styles =====*/
 .item {
 	padding: 0 5px;
 }
 .thumbnail {
 	background-color: #EDF1F4;
+	height: 417.98px;
+	padding: 15px;
+}
+
+.btn-primary {
+	background-color: #5CC0DE;
+}
+
+.col-sm-4 .btn-primary {
+	color: #fff;
 }
 
 .services {
 	text-align: center;
 }
 
+.thumbnail .caption {
+	height: 168px;
+}
+
+.thumbnail p {
+    margin: 19px 0 10px;
+}
+
+/*===== Footer Styles =====*/
 footer {
 	background-color: #231F20;
 }
+
+
+.col-sm-4 {
+	padding-top: 20px;
+}
+
+.col-sm-4 a {
+	color: #BFC0C1;
+}
+
+.col-sm-4 .border {
+	border-left: 1px solid #8F9091;
+	height: 96px;
+	margin: 0 auto;
+	float: left;
+	padding-right: 30px;
+}
+
+
+.col-sm-12 .text-center {
+	color: #8F9091;
+}
+
